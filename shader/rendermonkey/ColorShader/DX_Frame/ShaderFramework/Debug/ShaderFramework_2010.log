@@ -1,0 +1,15 @@
+﻿Build started 2013-10-05 오후 5:25:32.
+     1>Project "D:\prac\shader\rendermonkey\ColorShader\DX_Frame\ShaderFramework\ShaderFramework_2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ShaderFramework.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"DXUT.h" /Fp"Debug\ShaderFramework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ShaderFramework.cpp  
+         ShaderFramework.cpp
+     1>d:\prac\shader\rendermonkey\colorshader\dx_frame\shaderframework\shaderframework.cpp(92): error C2664: 'ID3DXEffect::SetMatrix' : cannot convert parameter 1 from 'const char [3]' to 'D3DXHANDLE'
+                 There is no context in which this conversion is possible
+     1>Done Building Project "D:\prac\shader\rendermonkey\ColorShader\DX_Frame\ShaderFramework\ShaderFramework_2010.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51
